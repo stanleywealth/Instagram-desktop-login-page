@@ -1,0 +1,179 @@
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #dbd9d9;
+    padding: 14px;
+    background-color: #fafafa;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-bottom: 9px;
+    font-size: 11px;
+    color: #606163;
+    outline-color: rgb(170, 170, 170);
+}
+
+.btn {
+    background-color: rgb(81, 186, 228);
+    color: whitesmoke;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px;
+    cursor: pointer;
+    outline: none;
+}
+
+.IG-img {
+    padding: 30px 0px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper {
+    width: 500px;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    box-sizing: border-box;
+    gap: 16px;
+    /* background-color: red; */
+}
+
+.holder {
+    width: 100%;
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 10px;
+    /* background-color: red; */
+}
+
+.content-holder {
+    width: 100%;
+    /* height: 500px; */
+    padding: 10px 20px;
+    border: 1px solid #dadada;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+/* .form-holder {
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+} */
+
+.fb-logo {
+    width: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 22px;
+}
+
+.log-with-fb {
+    padding-top: 22px;
+}
+
+.fb-login {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+div a {
+    color: #385185;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.lines-sets {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 14px;
+    color: #8a8b8d;
+}
+
+.line {
+    width: 150px;
+    opacity: 0.3;
+}
+
+.fg-password {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 22px;
+    font-weight: 400;
+}
+
+.signup-wrapper {
+    width: 100%;
+    margin: 0px;
+    padding: 10px 10px;
+    border: 1px solid #dadada;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.account {
+    font-size: 14px;
+}
+
+.sign-up {
+    padding-left: 5px;
+    color: rgb(81, 186, 228);
+    font-size: 15px;
+}
+
+.get-the-app {
+    width: 100%;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    margin: 0px;
+}
+
+.get-app {
+    font-size: 14px;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+.get-app-img {
+    width: 250px;
+}
